@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:homebrew_dripper/models/coffee_recipe.dart';
-import 'package:homebrew_dripper/screens/recipe_detail_screen.dart';
-import 'package:homebrew_dripper/utils/coffee_data.dart';
+import 'package:mix_genius/models/coffee_recipe.dart';
+import 'package:mix_genius/screens/recipe_detail_screen.dart';
+import 'package:mix_genius/utils/coffee_data.dart';
 
 class RecipeSelectionScreen extends StatelessWidget {
   @override

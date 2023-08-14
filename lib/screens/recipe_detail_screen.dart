@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:homebrew_dripper/models/coffee_recipe.dart';
-import 'package:homebrew_dripper/screens/recipe_steps_screen.dart';
+import 'package:mix_genius/models/coffee_recipe.dart';
+import 'package:mix_genius/screens/recipe_steps_screen.dart';
 
 class RecipeDetailScreen extends StatelessWidget {
   CoffeeRecipe recipe;

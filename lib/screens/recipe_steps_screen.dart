@@ -1,9 +1,9 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:homebrew_dripper/models/coffee_recipe.dart';
-import 'package:homebrew_dripper/models/recipe_step.dart';
-import 'package:homebrew_dripper/screens/done_screen.dart';
+import 'package:mix_genius/models/coffee_recipe.dart';
+import 'package:mix_genius/models/recipe_step.dart';
+import 'package:mix_genius/screens/done_screen.dart';
 
 class RecipeStepsScreen extends StatefulWidget {
   CoffeeRecipe recipe;

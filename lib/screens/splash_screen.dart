@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
-import 'recipe_selection_screen.dart';
+import 'drink_creation_screen.dart';
 
 class SplashScreen extends StatefulWidget {
   @override
@@ -21,7 +21,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
   navigateToDeviceScreen() {
     Navigator.pushReplacement(context,
-        MaterialPageRoute(builder: (context) => RecipeSelectionScreen()));
+        MaterialPageRoute(builder: (context) => DrinkCreationScreen()));
   }
 
   @override

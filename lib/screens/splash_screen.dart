@@ -20,17 +20,30 @@ class _SplashScreenState extends State<SplashScreen> {
   }
 
   navigateToDeviceScreen() {
-    Navigator.pushReplacement(
-        context, MaterialPageRoute(builder: (context) => RecipeSelectionScreen()));
+    Navigator.pushReplacement(context,
+        MaterialPageRoute(builder: (context) => RecipeSelectionScreen()));
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color(0xFF111729),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: [Text("HOMEBREW"), Text("Great Coffee at Home")],
+          children: [
+            Text(
+              "MIXGENIUS",
+              style: TextStyle(color: Colors.white,
+              fontWeight: FontWeight.bold,
+              fontSize: 48),
+            ),
+            Text("AI-Powered Mixology", 
+            style: TextStyle(color: Colors.white,
+            fontWeight: FontWeight.normal,
+            fontSize: 18)
+            )
+          ],
         ),
       ),
     );

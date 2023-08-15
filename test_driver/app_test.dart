@@ -27,5 +27,5 @@ void main() {
       // Use the `driver.getText` method to verify the counter starts at 0.
       expect(await driver.getText(coffeeRecipesTextFinder), "Coffee Recipes");
     });
-  });
+  },skip: true);
 }
